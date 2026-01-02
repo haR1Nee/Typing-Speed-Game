@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Typing Speed Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="startScreen" class="screen">
+  <h1>Typing Speed Game</h1>
+  <p>Type the words as fast and accurately as possible.</p>
+  <button onclick="startGame()">Start Game</button>
+</div>
+
+<div id="gameScreen" class="screen hidden">
+  <h2 id="wordDisplay"></h2>
+  <input type="text" id="userInput" placeholder="Type here..." autofocus>
+  <p>Score: <span id="score">0</span></p>
+  <p>Time Left: <span id="time">30</span>s</p>
+</div>
+
+<div id="gameOverScreen" class="screen hidden">
+  <h1>Game Over</h1>
+  <p>Your Score: <span id="finalScore"></span></p>
+  <button onclick="restartGame()">Replay</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
