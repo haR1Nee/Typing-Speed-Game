@@ -38,13 +38,13 @@ The objective is to type the displayed words as quickly and accurately as possib
 ## Screenshots
 
 ### Start Screen
-![Start Screen](Harinee_147/screenshots/start-screen.png)
+![Start_game](Harinee_147/screenshots/start-screen.png)
 
 ### Gameplay
-![Gameplay](Harinee_147/screenshots/gameplay.png)
+![game_play](Harinee_147/screenshots/gameplay.png)
 
 ### Game Over
-![Game Over](Harinee_147/screenshots/game-over.png)
+![Game_Over](Harinee_147/screenshots/game-over.png)
 
 ### Typing Action
 ![Typing Action](Harinee_147/screenshots/typing-action.png)
